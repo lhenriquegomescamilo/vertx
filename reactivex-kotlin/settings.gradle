@@ -1,0 +1,4 @@
+rootProject.name = 'reactivex-kotlin'
+include 'src'
+findProject(':src')?.name = 'reactivex-kotlin'
+
